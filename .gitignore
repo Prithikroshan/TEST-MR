@@ -1,0 +1,12 @@
+# ignore root repo terraform files
+.terraform/
+/*.tfvars
+
+# ignore modules
+/vendor
+/vendor/**/**
+
+# other files
+.idea/
+TODO
+**/**/TODO
